@@ -1,0 +1,94 @@
+type: legs
+name: Kaurnauge
+description: The laser is absurdly powerful against anything except plastanium walls
+hitSize: 29
+health: 5000
+armor: 3
+speed: 1
+landShake: 2
+rotateSpeed: 1.5
+commandLimit: 8
+legCount: 6
+legLength: 20
+legBaseOffset: 11
+legMoveSpace: 1.5
+legTrns: 0.6
+hovering: true
+visualElevation: 1
+allowLegStep: true
+mineTier: 2
+mineSpeed: 7
+drawShields: false
+weapons: [
+{
+  name: goldenCorvus-weapon
+  x: 0
+  y: 0
+  shootSound: laserblast
+  chargeSound: lasercharge
+  soundPitchMin: 1
+  top: false
+  mirror: false
+  shake: 18
+  shootY: 5
+  reload: 300
+  recoil: 30
+  cooldownTime: 300
+  shootStatusDuration: 200
+  shootStatus: unmoving
+  firstShotDelay: 100
+  bullet: {
+    type: LaserBulletType
+    length: 500
+    damage: 50
+    width: 1
+    lifetime: 80
+    lightningSpacing: 3
+    lightningLength: 3
+    lightningDelay: 0.1
+    lightningLengthRand: 5
+    lightningDamage: 20
+    lightningAngleRand: 60
+    largeHit: true
+    lightColor: 8ae234
+    lightningColor: 8ae234
+    shootEffect: greenLaserCharge
+    healPercent: 50
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+    colors: [
+      f0e4a848, f0e4a8, ffffff
+    ]
+  }
+}
+{name: gHealShotgun
+  x: 11
+  y: -5
+  healPercent: 50
+  collidesTeam: true
+  shootY: 7
+  reload: 30
+  shake: 4
+  rotateSpeed: 5
+  ejectEffect: casing1
+  shootSound: shootBig
+  rotate: true
+  recoil: 3
+  shots: 10
+  spacing: 0.5
+  bullet: {
+    type: BasicBulletType
+    length: 10
+    speed: 4
+    lifetime: 60
+    damage: 20
+    width: 10
+    fromColor: f0e4a8
+    toColor: ffffff
+    shootEffect: sparkShoot
+    smokeEffect: sparkShoot
+  }
+}]
+research: tetrative-reconstructor

@@ -1,0 +1,91 @@
+type: flying
+name: Meltauor
+description: Carries around a heavy duty slag based tsunami to melt anything
+health: 20000
+hitsize: 60
+speed: 0.3
+drag: 0.04
+range: 100
+shootCone: 30
+flying: true
+rotateWeapon: true
+engineOffset: 40
+engineSize: 8
+rotatespeed: 0.01
+baseRotateSpeed: 0.01
+weapons: [{
+  name: goldEclipseGun
+  x: -32
+  y: 0
+  reload: 10
+  shots: 2
+  shootCone: 100
+  shake: 1
+  inaccuracy: 20
+  alternate: true
+  ejectEffect: none
+  bullet: {
+    type: BasicBulletType
+    speed: 5
+    damage: 15
+    bulletWidth: 20
+    bulletHeight: 25
+    shootEffect: shootBig
+    fragBullet: {
+     type: LaserBulletType
+     length: 10
+     damage: 10
+     width: 5
+     lifetime: 30
+     lightningSpacing: 20
+     lightningLength: 2
+     lightningDelay: 0.4
+     lightningLengthRand: 5
+     lightningDamage: 3
+     lightningAngleRand: 60
+     largeHit: true
+     lightColor: 8ae234
+     lightningColor: 8ae234
+     shootEffect: greenLaserCharge
+     healPercent: 50
+     collidesTeam: true
+     sideAngle: 15
+     sideWidth: 0
+     sideLength: 0
+     colors: [
+       f0e4a848, f0e4a8, ffffff
+     ]}
+  }
+shootSound: shootbig
+}
+
+
+{
+  name: goldChaos
+  x: 0
+  y: 0
+  mirror:false
+  rotateSpeed: 0.03
+  reload: 1
+  shots: 3
+  shootCone: 100
+  shake: 1
+  ejectEffect: none
+  bullet: {
+    type: LiquidBulletType
+    liquid:slag
+    Inaccuracy: 50
+    shots:5
+    spacing: 1
+    speed: 2
+    damage: 2
+    lifetime: 80
+    status: wet
+  shootSound: shootbig
+  fragBullet:{
+  type: BasicBulletType
+  damage: 1}
+}
+}
+]
+research: tetrative-reconstructor

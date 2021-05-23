@@ -1,0 +1,60 @@
+type: mech
+name: Destrauctshuon
+description: Armed with miniguns and two giant fuse cannons, it is not be underestimated
+health: 15000
+speed: 0.8
+drag: 0.3
+hitSize: 23
+
+weapons: [
+{
+  name: gToxopid-equip
+  x: -20
+  y: -10
+  reload: 50
+  alternate: true
+  shake: 5
+  shots: 4
+  spacing: 4
+  shotDelay: 5
+  ejectEffect: casing4
+  chargeSound: laserbig
+  bullet: {
+    type: LaserBulletType
+    lightning: 5
+    lightningLength: 7
+    lightningDamage: 50
+    chargeSound: laserbig
+    shootSound: laserbig
+    hitEffect: blastExplosion
+    width: 10
+    length: 60
+    shootEffect: shootBig
+    lifetime: 80
+    damage: 150
+    ammoEjectBack: 20
+  }
+
+}
+{
+  name: gBeamWeapon
+  x: 8.5
+  y: 6
+  reload: 5
+  rotate: true
+  ejectEffect: casing4
+  bullet: standardCopper
+}
+{
+  name: gBeamWeapon
+  x: 8.5
+  y: -7
+  reload: 20
+  shots: 3
+  spacing: 0.3
+  rotate: true
+  ejectEffect: casing4
+  bullet: standardCopper
+}
+]
+research: tetrative-reconstructor

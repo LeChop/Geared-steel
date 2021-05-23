@@ -1,0 +1,16 @@
+type: ShockMine
+health: 1500
+name: Pain Wall
+description: PAIN (30 contact damage)
+hasShadow: false
+fillsTile: false
+tileDamage: 30
+size: 1
+requirements: [
+  blast-compound/6
+  goldIngot/1
+  goldOre/3
+  phase-fabric/1
+]
+category: defense
+research: shock-mine

@@ -1,0 +1,56 @@
+type: ItemTurret
+name: Javeline
+description: This turret fires an explosive javeline like bullet continuosly.
+health: 5000
+size: 2
+hasItems: true
+hasLiquids: true
+itemCapacity: 10
+liquidCapacity: 10
+range: 100
+reloadTime: 0
+inaccuracy: 0
+shots: 1
+coolantMultiplier: 3
+ammoTypes: {
+phase-fabric:
+{
+  lifetime: 20
+  speed: 10
+  ammoMultiplier: 1
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+  damage: 40
+  width: 10
+  height: 100
+  pierce: true
+  fragBullet: {
+  type: BasicBulletType
+    width: 1
+    height: 2
+    damage: 20
+    sprite: shell
+    lifetime: 1
+    speed: 10
+    status: burning
+    lightning: 2
+    lightningLength: 10
+}}
+}
+requirements: [
+silicon/1000
+metaglass/300
+surge-alloy/1250
+plastanium/175
+thorium/1250
+goldIngot/50
+]
+category: turret
+research: spectre
+consumes: {
+liquid: {
+liquid: slag
+amount: 3
+optional: true
+booster: true
+}}

@@ -1,0 +1,113 @@
+type: LiquidTurret
+name: FlashFlood
+description: Fires assorted liquids at the enemy each doing different things
+range: 200
+requirements: [
+silicon/1000
+metaglass/1000
+surge-alloy/1250
+thorium/350
+goldIngot/250
+]
+ammoTypes: {
+  moltenGold: {
+    type: LiquidBulletType
+    liquid: moltenGold
+    damage: 15
+    speed: 3
+    height: 25
+    width: 25
+    hitShake: 1
+    ammoMultiplier: 1
+    colors: [
+      ffffff, 0000ff, 1800ff
+    ]
+    incendChance: 5
+    incendSpread: 5
+    incendAmount: 3
+    effect: burning
+    effect: oiled
+    lifetime:60
+    speed:3
+    knockback: 3
+    damage:15
+    lightColor: 9400d3
+}
+
+
+moltenPalla: {
+    type: LiquidBulletType
+    liquid: moltenPalla
+    damage: 5
+    speed: 5
+    height: 25
+    width: 25
+    hitShake: 1
+    ammoMultiplier: 1
+    colors: [
+      ffffff, 0000ff, 1800ff
+    ]
+    incendChance: 10
+    incendSpread: 3
+    incendAmount: 2
+    effect: freezing
+    effect: shocked
+    effect: sapped
+    lifetime:70
+    speed:5
+    knockback: 10
+    damage:5
+    lightColor: ffffff
+}
+
+
+godLiquid: {
+    type: LiquidBulletType
+    liquid: godLiquid
+    lightning: 5
+    lightningLength: 10
+    damage: 20
+    speed: 6
+    height: 25
+    width: 25
+    hitShake: 1
+    ammoMultiplier: 1
+    colors: [
+      ffffff, 0000ff, 1800ff
+    ]
+    incendChance: 30
+    incendSpread: 30
+    incendAmount: 30
+    effect: oiled
+    effect: burning
+    effect: shocked
+    effect: sapped
+    lifetime:50
+    speed:7
+    knockback: 20
+    damage:20
+    lightColor: ffffff
+}
+}
+rotateSpeed: 10
+reloadTime: 1
+restitution: 0.2
+ammoUseEffect: casing4
+recoilAmount: 0.1
+cooldown: 0
+shootShake: 4
+shots: 10
+size: 4
+velocityInnacuracy: 1
+burstSpacing: 1
+innacuracy:50
+xRand:10
+shootCone: 30
+shootSound: shootBig
+coolantMultiplier: 1
+health: 5000
+consumes: {
+  power: 12
+}
+category: turret
+research: foreshadow

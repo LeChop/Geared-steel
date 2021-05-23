@@ -1,0 +1,38 @@
+type: ItemTurret
+name: Plast Gun
+targetAir: true
+targetGround: true
+hasPower: false
+hasLiquids: true 
+shootSound: fuse
+health: 5000
+size: 4
+inaccuracy: 5
+spread: 20
+reloadTime: 10
+shots: 1
+rotateSpeed: 30
+range: 200
+coolantMultiplier: 20
+ammoTypes: {
+	plastanium: {
+	  type: ShrapnelBulletType
+	  length: 175
+          width: 50
+	  damage: 200
+	  ammoMultiplier: 2
+          colors:[8ae234]
+	  }
+	}
+requirements: [
+plastanium/10000
+	]
+category: turret
+research: spectre
+consumes: {
+  liquid: {
+    liquid: moltenPalla
+    amount: 3
+    optional: true
+    booster: true
+}}

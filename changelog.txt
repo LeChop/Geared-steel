@@ -1,0 +1,32 @@
+v 2.0.0
+- added several more buildings and an entire unit tree as well as some balancing and redesign of textures
+- public
+
+v1.0.0
+- Made turrets cost ore and added ore forge
+
+v0.9.0
+- Added XSive ore
+
+
+v0.8.0:
+- Made cool sprites for the turrets
+
+v0.7.0:
+- Fixed issues with the new turrets
+
+v0.6.0:
+- Added the rest of the turrets: The Atomic Overdrive, C.O.N.E.S, Matter Fusion Collapser, Fission Bomb
+
+v0.5.0:
+- Nerfed damages and costs of turrets from the thousands to the hundreds.
+
+v0.4.0:
+- Made some more turrets: Javeline: Bombliterator, Quantum Field laser, Missile Acellerator
+
+v0.3.0
+- Fixed issues with the turret and several others
+
+v0.1.0:
+- Added first turret: Quintisential
+- Fixed issues with turret

@@ -1,0 +1,43 @@
+type: mech
+name: Johan Wieck
+description: This little character is not very good on his own, however if player controlled, the more you zoom in the faster he shoots
+hitSize: 10
+armor:5
+commanLimit: 10
+speed: 2
+mechSideSway: 0.4
+flying: false
+health: 2000
+range: 100
+weapons: [
+  {
+  name: gLargeWeapon
+  x: 3
+  y: 2
+  reload: 1
+  rotateSpeed: 10
+  rotate: true
+  shake:2
+  mirror: true
+  shootSound: explosion
+  ejectEffect: casing1
+  bullet: {
+    type: BasicBulletType
+    lifetime: 50
+    speed: 2
+    smokeEffect: shootSmallSmoke
+    damage: 20
+    width: 3
+    homingPower: 1
+    homingRange: 40
+    length: 7
+    fromColor: 8ae234
+    toColor: 8ae234
+    shootEffect: shootBig
+    hitEffect: overdriven
+    splashDamage: 20
+    splashDamageRadius: 50
+  }
+}
+]
+research: tetrative-reconstructor

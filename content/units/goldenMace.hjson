@@ -1,0 +1,66 @@
+type: mech
+name: Sauwbleide
+speed: 1
+drag: 0.4
+hitSize: 15
+range: 30
+health: 5000
+weapons: [{
+  name: goldFlamethrower
+  x: 0
+  y: 0
+  rotate: false
+  mirror: False
+  shootSound: flame
+  reload: 1
+  ejectEffect: none
+  bullet: pyraFlame
+}
+
+{
+  name: goldChainBlaster
+  x: 0
+  y: 0
+  shootSound: laserblast
+  rotate: false
+  mirror: False
+  reload: 1
+  ejectEffect: none
+  bullet: {
+   type: LaserBulletType
+   length: 50
+   width: 5
+   lifetime: 10
+   damage: 20
+   colors: [
+      FF0000, 800000, ffffff
+    ]
+
+
+}
+}
+{
+  name: goldChainBlaster
+  x: 0
+  y: 0
+  shootSound: laserblast
+  rotate: false
+  mirror: False
+  reload: 1
+  ejectEffect: none
+  bullet: {
+   type: BasicBulletType
+   length: 50
+   width: 5
+   speed: 6
+   lifetime: 10
+   damage: 20
+   colors: [
+      FF0000, 800000, ffffff
+    ]
+
+
+}
+}
+]
+research: goldenDagger

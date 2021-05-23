@@ -1,0 +1,46 @@
+type: Reconstructor
+name: Quantum Reconstructor
+description: Rearanges the atoms to make units more powerful
+size: 7
+consumes: {
+  power: 7
+  items: {
+    items: [
+    silicon/1000
+    graphite/1000
+    titanium/1250
+    phase-fabric/750
+    goldIngot/100
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.3
+  }
+}
+constructTime: 2500
+requirements: [
+  lead/3000
+  titanium/1000
+  thorium/500
+  plastanium/200
+  phase-fabric/300
+  silicon/750
+  goldIngot/50
+]
+upgrades: [
+  [
+    goldenPulsar, goldenFortress
+  ]
+  [
+    goldenCorvus, goldenQuasar
+  ]
+  [
+    goldenDagger, goldenScepter
+  ]
+]
+
+
+
+category: units
+research: goldReconstructor4

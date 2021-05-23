@@ -1,0 +1,83 @@
+type: ItemTurret
+name: Fission Bomb
+description: Launches a gigantic warhead into the enemy's defences.
+requirements: [
+silicon/1000
+metaglass/300
+surge-alloy/1250
+plastanium/175
+thorium/1250
+goldIngot/50
+]
+reloadTime: 500
+shots: 1
+range: 500
+size: 4
+health: 5000
+shootSound: laserbig
+shootShake: 30
+ammoTypes: {
+plastanium: {
+type: MissileBulletType
+speed: 13
+homingPower: 0
+homingRange: 0
+drag: 0.03
+width: 300
+height: 500
+splashDamageRadius: 30
+splashDamage: 150
+damage: 1000
+pierce: true
+ammoMultiplier: 1
+hitShake: 30
+lifetime: 200
+hitEffect: blastExplosion
+status: burning
+fragBullet: {
+    type: BasicBulletType
+    width: 1
+    height: 1
+    damage: 10
+    sprite: shell
+    lifetime: 25
+    speed: 5
+    despawnEffect: instBomb
+    fragBullet: {
+        type: BasicBulletType
+        width: 10
+        height: 10
+        damage: 100
+        pierce: true
+        sprite: shell
+        lifetime: 50
+        speed: 10
+        lightning: 1
+        lightningLength: 6
+        despawnEffect: instBomb
+        fragBullet: {
+            type: BasicBulletType
+            width: 10
+            height: 10
+            damage: 100
+            pierce: true
+            sprite: shell
+            lifetime: 50
+            speed: 10
+            lightning: 1
+            lightningLength: 6
+            despawnEffect: instBomb
+  }
+  }
+  }
+} 
+}
+consumes: {
+liquid: {
+liquid: oil
+amount: 1
+booster: true
+optional: false
+}}
+category: turret
+research: spectre

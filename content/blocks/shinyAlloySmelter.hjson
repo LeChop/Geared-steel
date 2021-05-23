@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: GodLiquid Mixer
+health: 2500
+liquidCapacity: 50
+size: 3
+consumes: {
+  power: 2
+  liquid: {
+   liquid: moltenPalla
+   amount: 0.3
+}
+  items:{
+   items:[
+    blast-compound/1
+]
+}
+
+
+} 
+
+
+outputLiquid: godLiquid/2
+updateEffect: smeltsmoke
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+requirements: [
+  metaglass/500
+  titanium/150
+  silicon/300
+  surge-alloy/750
+  goldIngot/100
+]
+category: crafting
+research: cryofluid-mixer

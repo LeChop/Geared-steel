@@ -1,0 +1,27 @@
+type: OverdriveProjector
+name: WarpDrive
+health: 900
+size: 3
+consumes: {
+power: 5
+items: {
+items: [
+blast-compound/1
+]
+booster: true
+optional: true
+}} 
+phaseColor: 8ae234
+range: 222
+speedBoost: 5
+speedBoostPhase: 2
+phaseRangeBoost: 123
+requirements: [
+plastanium/300
+surge-alloy/450
+spore-pod/30
+silicon/1500
+goldIngot/400
+]
+category: effect
+research: overdrive-projector

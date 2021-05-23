@@ -1,0 +1,32 @@
+type: Drill
+name: Giga Drill
+description: A far better than normal drill
+health: 2000
+size: 4
+requirements: [
+titanium/75
+plastanium/50
+thorium/75
+silicon/100
+goldIngot/50
+goldOre/100
+] 
+tier: 10
+baseExplosiveness: 40
+drillEffect: hitMeltdown
+updateEffect: overdriven
+drillTime: 30
+heatColor: 8ae234
+liquidBoostIntensity: 2
+rotateSpeed: 30
+drawRim: true
+consumes: {
+power: 4
+liquid: {
+liquid: slag
+amount: 0.5
+optional: true
+booster: true
+}} 
+category: production
+research: blast-drill

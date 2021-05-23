@@ -1,0 +1,120 @@
+type: UnitFactory
+name: Quantum Constructor
+description: Uses nano technology
+size: 9
+consumes: {
+  power: 10
+  }
+  liquid: {
+    liquid: slag
+    amount: 1
+  }
+requirements: [
+  lead/4000
+  surge-alloy/500
+  thorium/500
+  plastanium/400
+  phase-fabric/600
+  silicon/1500
+  goldIngot/100
+  goldOre/1000
+]
+plans: [
+  {
+unit: goldenCorvus
+    requirements: [
+  lead/5000
+  surge-alloy/500
+  thorium/500
+  plastanium/300
+  phase-fabric/500
+  silicon/500
+  goldIngot/100
+  goldOre/1000
+]
+    time: 2000
+  }
+
+  {
+unit: goldenEclipse
+    requirements: [
+  lead/3000
+  surge-alloy/400
+  thorium/400
+  plastanium/300
+  phase-fabric/500
+  silicon/500
+  goldIngot/100
+  goldOre/900
+]
+    time: 2000
+  }
+
+{
+unit: goldenScepter
+    requirements: [
+  lead/3000
+  surge-alloy/400
+  thorium/400
+  plastanium/300
+  phase-fabric/500
+  silicon/500
+  goldIngot/100
+  goldOre/900
+]
+    time: 2000
+  }
+
+{
+unit: goldenDagger
+    requirements: [
+  lead/1000
+  blast-compound/50
+  silicon/500
+  goldIngot/50
+  goldOre/50
+]
+    time: 1000
+  }
+
+{
+unit: goldenArkyid
+    requirements: [
+  lead/3000
+  surge-alloy/400
+  thorium/400
+  plastanium/300
+  phase-fabric/500
+  silicon/500
+  goldIngot/100
+  goldOre/900
+]
+    time: 1000
+  }
+{
+unit: goldenMace
+    requirements: [
+  lead/1500
+  blast-compound/100
+  silicon/500
+  goldIngot/50
+  goldOre/150
+]
+    time: 1000
+  }
+
+{
+unit: goldenPulsar
+    requirements: [
+  metaglass/1500
+  blast-compound/100
+  silicon/500
+  goldIngot/50
+  goldOre/150
+]
+    time: 1500
+  }
+
+]
+category: units
+research: tetrative-reconstructor

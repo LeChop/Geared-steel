@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: CryoPlast Mixer
+health: 2500
+size: 2
+hasItems: true
+hasPower: true
+hasLiquids: true
+consumes: {
+power: 1.5
+liquid: {
+liquid: cryofluid
+amount: 0.8
+}
+items: {
+items: [
+plastanium/1
+]}}
+outputLiquid: {
+liquid: moltenPalla
+amount: 8
+}
+requirements: [
+metaglass/2000
+thorium/10
+titanium/500
+silicon/350
+goldIngot/30
+]
+category: crafting
+research: cryofluid-mixer

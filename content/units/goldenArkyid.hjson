@@ -1,0 +1,26 @@
+type: legs
+name: Hieavy Stoampa
+description: Has no weapons to attack with but instead 5 sharply studded leg plates
+drag: 0.1
+speed: 0.4
+hitSize: 25
+health: 20000
+armor: 5
+buildSpeed: 1
+rotateSpeed: 3
+legCount: 5
+legMoveSpace: 1
+legPairOffset: 3
+legLength: 10
+legExtension: -10
+legBaseOffset: 5
+landShake: 1
+legSpeed: 1
+legLengthScl: 1
+rippleScale: 2
+legSplashDamage: 50
+legSplashRange: 50
+hovering: true
+allowLegStep: true
+visualElevation: 1
+research: tetrative-reconstructor

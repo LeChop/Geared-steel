@@ -1,0 +1,7 @@
+temperature: 100
+name: XFluid
+lightColor: f400ff
+viscosity: 0.8
+flammability: 0.8
+explosiveness: 0.8
+color: f400ff

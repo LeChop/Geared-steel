@@ -1,0 +1,15 @@
+type: Conveyor
+name: XSive Conveyor
+description: Transports items with excessive force.
+health: 300
+speed: 0.3f
+displayedSpeed: 37f
+requirements: [
+copper/20
+lead/20
+metaglass/1
+goldOre/5
+goldIngot/1
+]
+category: distribution
+research: plastanium-conveyor

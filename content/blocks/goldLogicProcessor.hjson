@@ -1,0 +1,19 @@
+type: LogicBlock
+hasLiquids: true
+consumes: {
+  liquid: {
+    liquid: moltenPalla
+    amount: 0.08
+  }
+}
+instructionsPerTick: 1000
+range: 1000
+size: 3
+requirements: [
+phase-fabric/300
+goldOre/1000
+surge-alloy/50
+goldIngot/100
+]
+category: logic
+research: hyper-processor

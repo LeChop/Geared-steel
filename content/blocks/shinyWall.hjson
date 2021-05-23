@@ -1,0 +1,38 @@
+type: ForceProjector
+name: Drive Shield
+description: A hyper drive shield with a much stronger than normal defence
+health: 5000
+size: 4
+liquidCapacity: 30
+baseExplosiveness: 25
+hasPower: true
+canOverdrive: true
+phaseUseTime: 270
+phaseRadiusBoost: 200
+radius: 200
+updateEffect: overdriven
+shieldHealth: 5000
+phaseShieldBoost: 5000
+cooldownNormal: 10
+cooldownLiquid: 50
+basePowerDraw: 200
+consumes: {
+  power: 10
+  items: {
+    items: [
+      surge-alloy/1
+    ]
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+  surge-alloy/10
+  silicon/500
+  plastanium/125
+  goldOre/200
+  goldIngot/50
+  
+]
+category: effect
+research: goldWallLarge

@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: XFluid Mixer
+health: 2500
+liquidCapacity: 50
+outputLiquid: {
+  liquid: moltenGold
+  amount: 2
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  item: goldOre
+  liquid: {
+   liquid: slag
+   amount: 0.8
+}
+}
+requirements: [
+metaglass/2000
+thorium/10
+titanium/500
+silicon/350
+]
+category: crafting
+research: cryofluid-mixer

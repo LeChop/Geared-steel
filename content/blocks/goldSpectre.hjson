@@ -1,0 +1,72 @@
+type: ItemTurret
+name: Missile Accelerator
+descritpion: This turret fires missiles that accelerate to ridiculous speeds, increasing in damage as well.
+health: 5000
+size: 4
+range: 300
+coolantMultiplier: 1
+shootShake: 10
+shootSound: shootBig
+ammoTypes: {
+  spore-pod: {
+    type: MissileBulletType
+    width: 10
+    height: 30
+    lifetime: 50
+    speed: 10
+    damage: 100
+    pierce: true
+    ammoMultiplier: 1
+    frontColor: ffffff
+    backColor: ffffff
+    hitEffect: blastExplosion
+    status: burning
+    incendAmount: 5
+    xRand: 5
+    homingPower: 1
+    homingRange: 40
+    drag: -0.07
+    fragBullet: {
+    type: BasicBulletType
+    width: 5
+    height: 15
+    damage: 50
+    splashDamage: 50
+    splashDamageRadius: 20
+    sprite: shell
+    lifetime: 50
+    speed: 2
+    lightning: 5
+    lightningLength: 10
+    fragBullet: {
+    type: BasicBulletType
+    width: 2
+    height: 7
+    damage: 20
+    splashDamage: 100
+    splashDamageRadius: 20
+    sprite: shell
+    lifetime: 50
+    speed: 2
+  }
+  }
+  }
+} 
+requirements: [
+silicon/1000
+metaglass/300
+surge-alloy/1250
+plastanium/175
+thorium/1250
+goldIngot/50
+]
+consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 1
+    optional: false
+    booster: true
+  }
+} 
+category: turret
+research: spectre

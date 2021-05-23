@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Scrapper
+itemCapacity: 1
+size: 1
+hasItems: true
+hasPower: true
+craftTime: 50
+updateEffect: smeltsmoke
+
+consumes: {
+  power:0.1
+  items: {
+   items: [
+   silicon/1
+   surge-alloy/1
+   metaglass/1
+   plastanium/1
+   titanium/1
+   graphite/1
+]
+}
+} 
+
+outputItem: goldIngot/1
+requirements: [
+  silicon/50
+  copper/50
+  surge-alloy/20
+  phase-fabric/25
+  thorium/100
+]
+category: crafting
+research: distributor

@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: XSive Forge
+desription: Melts XSive ore into an alloy
+liquidCapacity: 10
+health: 2000
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 100
+updateEffect: overdriven
+consumes: {
+  power: 1
+  item: goldOre
+  liquid: {
+    liquid: slag
+    amount: 0.50
+  }
+}
+
+requirements: [
+silicon/100
+thorium/150
+plastanium/50
+surge-alloy/50
+]
+category: crafting
+research: laser-drill
+outputItem: goldIngot/1
+
+
+
+

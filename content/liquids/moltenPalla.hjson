@@ -1,0 +1,9 @@
+temperature: 0.001
+name:CryoPlast
+heatCapacity: 10000
+effect: freezing
+effect: shocked
+effect: sapped
+viscosity: 0.05
+color: 8ae234
+lightColor: 8ae234

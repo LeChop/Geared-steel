@@ -1,0 +1,38 @@
+type: mech
+name: Knouckoute
+speed: 0.75
+drag: 0.4
+hitSize: 14
+health: 5000
+weapons: [{
+  name: goldArtillery
+  x: 8
+  y: 2
+  reload: 50
+  alternate: true
+  recoil: 1
+  shake: 5
+  shots: 30
+  burstSpacing: 0.5
+  spacing: 0.5
+  ejectEffect: casing2
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 1.7
+    damage: 15
+    sprite: shell
+    hitEffect: blastExplosion
+    knockback: 10
+    lifetime: 100
+    width: 5
+    height: 15
+    collides: true
+    collidesTiles: true
+    splashDamageRadius: 30
+    splashDamage: 30
+    status: blasted
+    status: burning
+  }
+  shootSound: artillery
+}]
+research: goldenPulsar

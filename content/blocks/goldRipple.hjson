@@ -1,0 +1,58 @@
+type: ItemTurret
+name: The Atomic Overdrive
+description: Fires a huge bolt wave at the enemy that causes a whopping explosion.
+requirements: [
+silicon/1000
+metaglass/300
+surge-alloy/1250
+plastanium/175
+thorium/1250
+goldIngot/50
+]
+size: 3
+shots: 30
+inaccuracy: 0
+reloadTime: 1000
+ammoEjectBack: 20
+ammoUseEffect: casing4
+cooldown: 300
+shootShake: 20
+range: 500
+health: 5000
+shootSound: artillery
+ammoTypes: {
+scrap: {
+damage: 60
+lifetime: 500
+speed: 10
+drag: 0.05
+ammoMultiplier: 1
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+width: 100
+height: 100
+pierce: true
+fragBullet: {
+    type: BasicBulletType
+    width: 3
+    height: 3
+    damage: 100
+    sprite: shell
+    lifetime: 20
+    speed: 3
+    drag: 0.02
+    status: burning
+    lightning: 3
+    lightningLength: 15
+  }
+} 
+}
+category: turret
+research: spectre
+consumes: {
+liquid: {
+liquid: oil
+amount: 1
+optional: false
+booster: false
+}}

@@ -1,0 +1,69 @@
+type: ItemTurret
+name: Matter Fusion Collapser
+description: Uses specific energy filled materials and heats them up using slag and collapses them into either a black hole or small sun.
+health: 5000
+coolantMultiplier: 1
+size: 4
+hasItems: true
+hasLiquids: true
+itemCapacity: 10
+liquidCapacity: 10
+shootSound: laserbig
+requirements: [
+silicon/1000
+metaglass/300
+surge-alloy/1250
+plastanium/175
+thorium/1250
+goldIngot/50
+]
+ammoTypes: {
+surge-alloy: {
+lifetime: 30
+speed: 1
+ammoMultiplier: 2
+shootSound: laserbig
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 50
+width: 35
+height: 35
+hitShake: 30
+shootShake: 10
+despawnEffect: instBomb
+hitEffect: blastExplosion
+lightning: 1
+lightningLength: 6
+} 
+phase-fabric: {
+lifetime: 30
+speed: 3
+shootSound: laserbig
+ammoMultiplier: 2
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 100
+width: 50
+frontColor: 000000
+backColor: 000000
+hitShake: 30
+shootShake: 10
+height: 50
+hitEffect: blastExplosion
+} 
+}
+range: 100
+reload: 10
+inaccuracy: 360
+shots: 75
+targetAir: true
+targetGround: true
+consumes: {
+liquid: {
+liquid: slag
+amount: 1
+optional: false
+booster: true
+}}
+category: turret
+research: spectre

@@ -1,0 +1,11 @@
+temperature: 0.00000000001
+name:GodLiquid
+heatcapacity: 100
+viscosity: 0.01
+effect: oiled
+effect: burning
+effect: shocked
+effect: sapped
+color: a5a6ff
+explosiveness: 10000
+lightColor: a5a6ff

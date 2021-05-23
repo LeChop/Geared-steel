@@ -1,0 +1,28 @@
+type: MendProjector
+name: Reformer
+health: 3000
+size: 3
+consumes: {
+power: 3
+items: {
+items: [
+blast-compound/1
+]
+booster: true
+optional: true
+}} 
+phaseColor: 8ae234
+reload: 25
+range: 222
+healPercent: 40
+phaseBoost: 20
+phaseRangeBoost: 123
+requirements: [
+plastanium/300
+surge-alloy/450
+thorium/200
+silicon/1500
+goldIngot/400
+]
+category: effect
+research: mend-projector

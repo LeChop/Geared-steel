@@ -1,0 +1,46 @@
+type: ItemTurret
+name: C.O.N.E.S
+description: Compression, oriented, nuclear, energy, system
+requirements: [
+silicon/1000
+metaglass/300
+surge-alloy/1250
+plastanium/175
+thorium/1250
+goldIngot/50
+]
+shots: 10
+shootShake: 5
+burstSpacing: 1
+reloadTime: 0
+range: 100
+inaccuracy: 30
+size: 2
+shootCone: 30
+health: 5000
+shootSound: artillery
+coolantMultiplier: 2
+ammoTypes: {
+plastanium: {
+lifetime: 30
+speed: 3
+damage: 10
+frontColor: 00FF00
+backColor: 00FFFF
+ammoMultiplier: 20
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+width: 10
+height: 20
+sprite: shell
+} 
+}
+category: turret
+research: hail
+consumes: {
+liquid: {
+liquid: slag
+amount: 1
+optional: true
+booster: true
+}}

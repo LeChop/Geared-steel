@@ -1,0 +1,81 @@
+type: mech
+name: Jetscaurmer
+mineTier: 5
+hitSize: 15
+boostMultiplier: 3
+health: 15000
+buildSpeed: 5
+canBoost: true
+armor: 9
+shootCone: 360
+landShake: 2
+commandLimit: 10
+mechFrontSway: 0.5
+mechSideSway: 0.5
+speed: 0.5
+mineSpeed: 5
+drawShields: false
+weapons: [
+{
+  name: goldEruption
+  x: 0
+  y: 0
+  rotate: true
+  rotateSpeed:2
+  top: false
+  mirror: false
+  chargeSound: lasercharge
+  shake: 10
+  reload: 300
+  recoil: 2
+  shots: 80
+  burstSpacing: 0.3
+  spacing: 1
+  firstShotDelay: 100
+  shootStatusDuration: 130
+  shootStatus: unmoving
+  shootSound: shootbig
+  bullet: {
+    type: LaserBulletType
+    shootEffect: greenLaserCharge
+    damage: 80
+    sideAngle: 45
+    sideWidth: 5
+    sideLength: 30
+    colors: [
+      ffffff, FF0000, FF0010
+    ]
+  }
+}
+{
+  name: goldEruption
+  x: 0
+  y: 0
+  rotate: true
+  rotateSpeed:2
+  top: false
+  mirror: false
+  shake: 10
+  reload: 300
+  shootSound: artillery
+  recoil: 2
+  shots: 360
+  burstSpacing: 1
+  spacing: 1
+  shootEffect: shootBig
+  bullet: {
+    type: BasicBulletType
+    speed: 1
+    lifetime: 50
+    damage: 50
+    Width: 5
+    Length: 30
+    colors: [
+      ffffff, FFA500, FF8C00
+    ]
+  }
+}
+
+
+]
+research: goldenCorvus

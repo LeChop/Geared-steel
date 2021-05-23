@@ -1,0 +1,51 @@
+type: mech
+name: Gravitonne
+canBoost: true
+boostMultiplier: 5
+speed: 0.5
+landShake: 2
+rotateSpeed: 1.5
+commandLimit: 8
+drawShields: true
+hitSize: 15
+health: 7500
+buildSpeed: 1
+armor: 5
+shootCone: 30
+range: 100
+mineTier: 6
+mineSpeed: 10
+weapons: [
+
+{
+name: gHealShotgun
+  x: 5
+  y: 0
+  reload: 30
+  shake: 4
+  rotateSpeed: 5
+  ejectEffect: casing1
+  shootSound: laserblast
+  rotate: true
+  recoil: 3
+  shots: 30
+  burstSpacing: 1
+  spacing: 1
+  bullet: {
+    type: missileBulletType
+    length: 10
+    speed: 1
+    lifetime: 50
+    damage: 30
+    width: 6
+    fromColor: 000000
+    toColor: ffffff
+    shootEffect: sparkShoot
+    smokeEffect: sparkShoot
+    knockback: -10
+    status: tarred
+    status: freezing
+}}
+]
+
+research: tetrative-reconstructor

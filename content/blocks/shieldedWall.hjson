@@ -1,0 +1,40 @@
+type: LaserTurret
+name: Laser Wall
+description: A small rotating wall that shoots a tiny laser.
+health: 5000
+size: 1
+consumes: {
+power: 1
+}
+targetAir: true
+targetGround: true
+update: true
+hasPower: true
+shootEffect: shootSmall
+shootCone: 4
+hitShake: 2
+shootShake: 1
+reloadTime: 1
+shootDuration: 50
+shootSound: laserbig
+range: 30
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 10
+  length: 30
+  width: 10
+  hitEffect: hitMeltdown
+  drawSize: 100
+  splashDamage: 10
+  splashDamageRadius: 30
+}
+
+requirements: [
+silicon/10
+metaglass/3
+goldIngot/3
+thorium/1
+goldOre/30
+]
+category: defense
+research: goldWallLarge
