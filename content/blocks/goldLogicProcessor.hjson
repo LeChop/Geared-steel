@@ -1,4 +1,5 @@
 type: LogicBlock
+name: M.E.G.A processor
 hasLiquids: true
 consumes: {
   liquid: {
